@@ -23,7 +23,8 @@
     "@capacitor/ios": "^5.4.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "^5.4.1"
+    "@capacitor/cli": "^5.4.1",
+    "typescript": "^5.9.2"
   },
   "keywords": [
     "capacitor",

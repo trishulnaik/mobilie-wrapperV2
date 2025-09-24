@@ -53,6 +53,7 @@ If you prefer manual setup:
 1. **Install dependencies:**
    ```bash
    yarn install
+   yarn add -D typescript
    ```
 
 2. **Add platforms:**

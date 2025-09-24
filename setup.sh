@@ -14,6 +14,10 @@ fi
 echo "📦 Installing Capacitor dependencies..."
 yarn install
 
+# Install TypeScript as dev dependency
+echo "📝 Installing TypeScript..."
+yarn add -D typescript
+
 # Initialize Capacitor (if not already done)
 if [ ! -f "capacitor.config.ts" ]; then
     echo "⚙️ Initializing Capacitor..."
