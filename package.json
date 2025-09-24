@@ -1,0 +1,38 @@
+{
+  "name": "wrap-mobile",
+  "version": "1.0.0",
+  "description": "Mobile wrapper for Next.js localhost:3000 using Capacitor",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn cap run android --livereload --external",
+    "dev:ios": "yarn cap run ios --livereload --external",
+    "build": "yarn cap build",
+    "build:android": "yarn cap build android",
+    "build:ios": "yarn cap build ios",
+    "sync": "yarn cap sync",
+    "sync:android": "yarn cap sync android",
+    "sync:ios": "yarn cap sync ios",
+    "add:android": "yarn cap add android",
+    "add:ios": "yarn cap add ios",
+    "open:android": "yarn cap open android",
+    "open:ios": "yarn cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^5.4.1",
+    "@capacitor/core": "^5.4.1",
+    "@capacitor/ios": "^5.4.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^5.4.1"
+  },
+  "keywords": [
+    "capacitor",
+    "mobile",
+    "nextjs",
+    "pwa",
+    "android",
+    "ios"
+  ],
+  "author": "",
+  "license": "MIT"
+}
